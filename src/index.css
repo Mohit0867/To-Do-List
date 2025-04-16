@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.page-wrapper {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.d-block {
+  display: block;
+}
+.d-none {
+  display: none !important;
+}

@@ -1,0 +1,116 @@
+.home {
+  flex: 1;
+  padding-inline: 20px;
+}
+.home-heading {
+  display: flex;
+  gap: 40px;
+  font-size: 60px;
+  color: #3b3c3c;
+  margin-bottom: 20px;
+}
+.heading-counter {
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding-inline: 20px;
+}
+.tasks-container {
+  width: 100%;
+}
+.addTask {
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  background: none;
+  color: #232323;
+  font-weight: 400;
+}
+.tasks-list {
+  list-style-type: none;
+  padding-block: 15px;
+}
+.task-item {
+  width: 100%;
+  gap: 10px;
+  padding-block: 20px;
+  border-bottom: 1px solid #d1c1d1;
+}
+.task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.list-type-container {
+  padding-inline: 20px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid rgb(165, 165, 165);
+  width: fit-content;
+}
+.list-type-icon {
+  width: 15px;
+  height: 15px;
+  background:  red;
+  border-radius: 2px;
+}
+.list-type-none {
+  color: #4a4a4a;
+}
+.task-left {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-task-sidebar {
+  width: 0px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.add-task-open {
+  width: 450px;
+  padding: 20px;
+}
+.add-task-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  color: #3b3c3c;
+}
+.add-task-input {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+  background: none;
+  padding: 10px;
+}
+textarea {
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+  background: none;
+  padding: 10px;
+}
+
+.add-task-bttn {
+  margin-top: auto;
+  padding-block: 20px;
+  border-radius: 5px;
+  border: 0;
+  background: #ffd43d;
+}

@@ -1,0 +1,159 @@
+.sidebar {
+  background: #f4f4f4;
+  width: 50px;
+  height: 100vh;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 500ms ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar-open {
+  width: 350px;
+}
+.sidebar-open .sidebar-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebar-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.sidebar-header-logo {
+  font-size: 25px;
+  font-weight: 700;
+  color: #3b3c3c;
+}
+.sidebar-toggler {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.sidebar-header-icon {
+  font-size: 20px;
+}
+.sidebar-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-container {
+  width: 100%;
+  height: 35px;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.search-icon-container {
+  display: flex;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+  position: absolute;
+}
+.search-input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: none;
+  padding-inline: 10px;
+}
+.search-icon {
+  font-size: 18px;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.category-container {
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.category-heading {
+  margin-bottom: 20px;
+  font-style: 14px;
+  font-weight: bold;
+}
+.category-lists {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.category-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.collapsed {
+  min-width: 50px;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+  padding-block: 20px;
+}
+.sidebar-icon-collapsed {
+  font-size: 16px;
+  position: absolute;
+  left: -3px;
+  justify-content: center;
+}
+.collapsed:hover {
+  background: none !important;
+}
+.collapsed-item:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+.category-box {
+  width: 15px;
+  min-width: 15px;
+  height: 15px;
+  background: #ff6c6c;
+  border-radius: 2px;
+}
+.box-collapsed {
+  position: relative;
+  left: -3px;
+}
+.tags-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-size: 14px;
+}
+.tag-item {
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.tag-item:hover {
+  background: #cadcdf;
+}
+.settings-container {
+  width: 100%;
+  margin-top: 20px;
+}
+.settings-container-collapsed {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
